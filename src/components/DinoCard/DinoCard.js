@@ -1,11 +1,11 @@
 import React from "react";
-import "./FriendCard.css";
+import "./DinoCard.css";
 
-const FriendCard = props => (
+const DinoCard = props => (
     <div
         className = "card"
         value = {props.id}
-        onClick={() => props.handleClick(props.id)}
+        onClick={() => props.imageClick(props.id)}
     >
 
         <div className = "img-container">
@@ -15,4 +15,4 @@ const FriendCard = props => (
 
 );
 
-export default FriendCard;
+export default DinoCard;
