@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "image": "https://m.media-amazon.com/images/M/MV5BNzY5MDIzNTEwNl5BMl5BanBnXkFtZTgwMzEzOTIwMjE@._V1_SY1000_CR0,0,1552,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAwNDI2MTc5OV5BMl5BanBnXkFtZTcwMjk4OTI3OA@@._V1_SX1777_CR0,0,1777,955_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTYxNzIxMTY4NF5BMl5BanBnXkFtZTgwMDkyOTIwMjE@._V1_SY1000_CR0,0,1485,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY2ODQzNjE2OV5BMl5BanBnXkFtZTgwNDkyOTIwMjE@._V1_SY1000_CR0,0,1629,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTk2NzU3MjM1MV5BMl5BanBnXkFtZTgwMjcyOTIwMjE@._V1_SY1000_CR0,0,1477,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTg1MzY1MjgzOF5BMl5BanBnXkFtZTgwMzYyOTIwMjE@._V1_SY1000_CR0,0,1499,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "https://m.media-amazon.com/images/M/MV5BNTE3ODQ4NjkwNV5BMl5BanBnXkFtZTcwMzg4OTI3OA@@._V1_SY1000_CR0,0,1348,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "https://m.media-amazon.com/images/M/MV5BNjE5MzA1Njg2NV5BMl5BanBnXkFtZTcwNjQwMjY3Ng@@._V1_SY1000_CR0,0,1510,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "https://m.media-amazon.com/images/M/MV5BZTAyYTNiMWUtZTk2Zi00NDJkLWIzMTktNmI5MTMyM2RkODY4XkEyXkFqcGdeQXVyNjQ1MTgzMTY@._V1_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "https://m.media-amazon.com/images/M/MV5BYjEwOGYxMGYtMmJlYi00MzA1LWFiNGUtODA1NmJiODVjMDkzXkEyXkFqcGdeQXVyNzAyNzI4Njc@._V1_SY1000_CR0,0,976,1000_AL_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI3ODk3MTU3OV5BMl5BanBnXkFtZTYwNjYxNzE3._V1_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "https://m.media-amazon.com/images/M/MV5BMjEyODcyMzIyMV5BMl5BanBnXkFtZTcwMDk4OTI3OA@@._V1_SX1777_CR0,0,1777,955_AL_.jpg",
+        "clicked": false
+    }
+]
+
+
