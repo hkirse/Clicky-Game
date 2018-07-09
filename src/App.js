@@ -7,7 +7,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import dinosaurs from "./dinosaur.json"
 
-dinosaurShuffle(array) {
+function dinosaurShuffle(array) {
   for (let i = array.length - 1; i > 0; i--){
     let j = Math.floor(Math.random() * (i + 1));
     [array[i], array [j]] = [array[j], array[i]];
@@ -82,7 +82,24 @@ class App extends Component {
         In order to win the game, only click on images that have not been clicked previously
       </Title>
 
-
+      <Container>
+        <Row>
+          {this.state.dinosaurs.map(dinosaur => (
+            <Column size = "md-3 sm-6">
+              <DinoCard
+                key={dinosaur.id}
+                imageClick={this.imageClick}
+                Increment={this.Increment}
+                Reset={this.Reset}
+                Shuffle={this.Shuffle}
+                id={dinosaur.id}
+                image={dinosaur.image}
+              />
+            </Column>
+          ))}
+        </Row>
+      </Container>
+      </Wrapper>
     );
   }
 }
