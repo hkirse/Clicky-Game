@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import DinoCard from "./components/DinoCard";
-import Navbar from "./components/Navbar";
+import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import dinosaurs from "./dinosaur.json"
@@ -26,17 +25,17 @@ class App extends Component {
   };
 
   //Image click function
-  imageClick = id => {
+  handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
-      this.Increment();
+      this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
     } else {
-      this.Reset();
+      this.handleReset();
     }
   };
 
   //Score increment, top score, and winner function
-  Increment = () => {
+  handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
@@ -48,22 +47,22 @@ class App extends Component {
     else if (newScore === 12) {
       this.setState({ rightWrong: "Winner!" });
     }
-    this.Shuffle();
+    this.handleShuffle();
   };
 
   //Reset function after incorrect guess
-  Reset = () => {
+  handleReset = () => {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
       rightWrong: "Dino got you!",
       clicked: []
     });
-    this.Shuffle();
+    this.handleShuffle();
   }
 
   //Shuffle cards function
-  Shuffle = () => {
+  handleShuffle = () => {
     let shuffledDinos = dinosaurShuffle(dinosaurs);
     this.setState({ dinosaurs: shuffledDinos });
   };
@@ -71,7 +70,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar
+        <Nav
           title = "Jurassic Park Clicky Game"
           score = {this.state.currentScore}
           topScore = {this.state.topScore}
@@ -88,10 +87,10 @@ class App extends Component {
             <Column size = "md-3 sm-6">
               <DinoCard
                 key={dinosaur.id}
-                imageClick={this.imageClick}
-                Increment={this.Increment}
-                Reset={this.Reset}
-                Shuffle={this.Shuffle}
+                handleClick={this.handleClick}
+                handleIncrement={this.handleIncrement}
+                handleReset={this.handleReset}
+                handleShuffle={this.handleShuffle}
                 id={dinosaur.id}
                 image={dinosaur.image}
               />

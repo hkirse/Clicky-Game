@@ -5,7 +5,7 @@ const DinoCard = props => (
     <div
         className = "card"
         value = {props.id}
-        onClick={() => props.imageClick(props.id)}
+        onClick={() => props.handleClick(props.id)}
     >
 
         <div className = "img-container">
