@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = props => (
-    <nav> class="navbar fixed-top navbar-light bg-light">
+    <nav> 
         <ul>
         <li className="brand animated lightSpeedIn">
         <a href="/clicky-game/">{props.title}</a>

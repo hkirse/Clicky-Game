@@ -4,7 +4,10 @@ import DinoCard from "./components/DinoCard";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import dinosaurs from "./dinosaur.json"
+import Container from "./Container";
+import Row from "./Row";
+import Column from "./Column";
+import dinosaurs from "./dinosaurs.json"
 
 function dinosaurShuffle(array) {
   for (let i = array.length - 1; i > 0; i--){
@@ -44,7 +47,7 @@ class App extends Component {
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    else if (newScore === 12) {
+    else if (newScore === 11) {
       this.setState({ rightWrong: "Winner!" });
     }
     this.handleShuffle();
