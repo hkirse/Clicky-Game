@@ -1,3 +1,21 @@
+The Jurassic Park clicky game was reacted using Create-React-App.
+
+Create-React-App provided the template for the application build.  We then used React functionality throughout the application for the back end.  Bootstrap combined with CSS was used for the front end.
+
+The application displays 12 cards, each with a different image populated from a JSON file.  After an image is clicked, the handleClick function is run and the score will either go up 1 or if the image had been clicked previously in the same game, a game over message is displayed.  If the user reaches a score of 12, the game is won.
+
+This is a single page application that renders a Nav bar, Title, Cards, and a Wrapper.  After an image is clicked, the images are then shuffled with the dinosaurShuffle function which uses math.floor and math.random to initiate the shuffle of the array.
+
+This application can be found here: https://quiet-savannah-23815.herokuapp.com/
+
+
+-- Below is an automated Read Me generated from React --
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
